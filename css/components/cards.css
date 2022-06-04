@@ -1,0 +1,64 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  margin: 0 auto;
+}
+.cards img {
+  max-width: 200px;
+  max-height: 170px;
+}
+.card-container {
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0,0.1);
+  padding: 12px 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .cards {
+    width: 700px;
+  }
+}
+@media (max-width: 780px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .cards {
+    width: 400px;
+    flex-direction: column;
+  }
+  .cards img {
+    max-width: 140px;
+  }
+}
+@media (max-width: 600px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .cards {
+    width: 400px;
+    flex-direction: column;
+  }
+  .cards img {
+    max-width: 140px;
+  }
+}
+@media (max-width: 480px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .cards {
+    width: 300px;
+    flex-direction: column;
+  }
+  .cards img {
+    max-width: 110px;
+  }
+}
+@media (max-width: 340px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .cards {
+    width: 200px;
+    flex-direction: column;
+  }
+  .cards img {
+    max-width: 100px;
+  }
+}

@@ -1,0 +1,13 @@
+.btn-reversed {
+  background-color: darkgreen;
+  border: 1px solid lawngreen;
+  border-radius: 18px;
+  padding: 12px 24px;
+  color: white;
+}
+.btn-reversed:hover {
+  background-color: white;
+  border: darkgreen;
+  color: darkgreen;
+  opacity: 0.8;
+}

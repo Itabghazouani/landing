@@ -1,0 +1,41 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,700;1,300&display=swap');
+
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+/* Import components */
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/btn-reversed.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+@import url("components/list-inline.css");
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+
+} h2, h3, h4 {
+  font-family: 'Abril Fatface';
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  font-weight: lighter;
+  text-shadow: 0 10px 30px (0,0,0,.4);
+}
+
+/* Custom design below! */
